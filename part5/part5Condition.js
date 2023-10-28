@@ -11,20 +11,20 @@ Algoritma soal 1:
     - Jika Peran Penyihir maka Outputnya (Halo Penyihir (nama) Ciptakan kaajaiban yang membantu kemenanganmu)
     - Jika peran yang dipilih ga ada maka outputnya (Tapi kayanya kamu jadi bot aja ya, peran yang kamu pilih ga ada)
 */
-let nama="Asep", peran="tabib";
+let nama="", peran="";
 if(nama == ""){
     console.log('Nama Wajib Di isi')
     }else if(peran==""){
         console.log('Pilih peranmu untuk memulai game')
-        }else if(nama == nama && peran=='ksatria'){
-            console.log(`Halo ksatria ${nama} Kamu dapat menenyerang dengan Senjatamu`)
-            }else if(nama == nama && peran=='tabib'){
-                console.log(`Halo Tabib ${nama} Kamu akan membantu temanmu yang terluka`)
-                }else if(nama == nama && peran=='penyihir'){
-                    console.log(`Halo Penyihir ${nama} Ciptakkan kaakaiban yang membantu kemenanganmu`)
-                    }else{
-                        console.log('Tapi Kayanya kamu Jadi bot aja ya, peran yang kamu pilih ga ada')
-                            }
+    }else if(nama == nama && peran=='ksatria'){
+        console.log(`Halo ksatria ${nama} Kamu dapat menenyerang dengan Senjatamu`)
+    }else if(nama == nama && peran=='tabib'){
+        console.log(`Halo Tabib ${nama} Kamu akan membantu temanmu yang terluka`)
+    }else if(nama == nama && peran=='penyihir'){
+        console.log(`Halo Penyihir ${nama} Ciptakkan kaakaiban yang membantu kemenanganmu`)
+    }else{
+        console.log('Tapi Kayanya kamu Jadi bot aja ya, peran yang kamu pilih ga ada')
+}
 
 /*
 Algoritma Soal no 2:
